@@ -1,0 +1,21 @@
+{
+  "name": "ichat",
+  "version": "1.0.0",
+  "description": "This is the iChat app ",
+  "main": "nodeserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon nodeserver.js"
+  },
+  "author": "faizan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express.js": "^1.0.0",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2",
+    "ws": "^8.13.0"
+  }
+}

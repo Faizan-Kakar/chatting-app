@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .flex-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.other-content {
+  /* Styling for other content */
+}
+
+.expanding-div {
+  flex: 1;
+  min-height: 100px; /* Set a minimum height for the expanding div */
+  background-color: lightblue;
+  padding: 10px;
+  overflow: auto; /* Add scrolling if content overflows */
+}
+
+</style>
+</head>
+<body>
+
+  <div class="flex-container">
+    <div class="other-content">
+      hello world
+    </div>
+    <div class="expanding-div">
+      <!-- Text content here -->
+    </div>
+  </div>
+  
+
+</body>
+</html>
